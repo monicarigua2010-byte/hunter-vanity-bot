@@ -1,0 +1,7 @@
+Recommended Railway Volume mount path:
+/data
+
+Then set:
+DB_PATH=/data/staff-tracker.sqlite
+
+Without a persistent volume, the SQLite database can be lost when Railway recreates the container.

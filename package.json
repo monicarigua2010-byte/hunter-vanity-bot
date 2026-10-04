@@ -1,0 +1,19 @@
+{
+  "name": "staff-message-tracker",
+  "version": "1.1.0",
+  "description": "Multi-server Discord staff message quota tracker with reminders and Top 15 leaderboard.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.2",
+    "better-sqlite3": "^12.2.0",
+    "luxon": "^3.7.2"
+  }
+}
